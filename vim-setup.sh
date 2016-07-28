@@ -13,7 +13,7 @@ git clone https://github.com/vim-airline/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes
 git clone https://github.com/scrooloose/nerdtree.git
 cd ~
-touch .vimrc
+>.vimrc
 echo 'execute pathogen#infect()' >> .vimrc
 echo 'autocmd VimEnter * NERDTree' >> .vimrc
 echo "let NERDTreeIgnore = ['\.pyc$']" >> .vimrc
