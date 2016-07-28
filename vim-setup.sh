@@ -34,4 +34,4 @@ echo 'nnoremap <C-o> :E <Enter>' >> .vimrc
 echo 'inoremap <C-o> <C-c> :E <Enter>' >> .vimrc
 echo 'nnoremap <C-x> :bd <Enter>' >> .vimrc
 echo 'inoremap <C-x> <C-c> :bd <Enter>' >> .vimrc
-echo 'Vim Plugin sSetup is complete!'
+echo 'Vim Plugin Setup is complete!'
