@@ -1,4 +1,5 @@
 #!/bin/bash
+#Author: lillypad
 echo "lillypad's Vim configuration Install Script"
 sudo apt-get -y update
 sudo apt-get -y upgrade
