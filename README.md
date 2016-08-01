@@ -19,5 +19,8 @@ Shortcuts:</br>
 New Features:</br>
 - Move cursor from NERDTree to first buffer automatically
 
+Features to Come:</br>
+- Tmux install and 256 color
+- Add 256 color to bashrc
 
 One quick install and config script and your up and running.
