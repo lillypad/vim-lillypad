@@ -9,12 +9,12 @@ Installs and Configures Vim for all my favorite plugins</br>
 - YouCompleteMe Themes
 
 Shortcuts:</br>
-- <CTRL> + x (close buffer)
-- <CTRL> + n (next buffer)
-- <CTRL> + b (back buffer)
-- <SHIFT> + q (quit)
-- <SHIFT> + w (write file)
-- <CTRL> + o (open file)
+- <kbd>CTRL</kbd>+<kbd>x</kbd> (close buffer)
+- <kbd>CTRL</kbd>+<kbd>n</kbd> (next buffer)
+- <kbd>CTRL</kbd>+<kbd>b</kbd> (back buffer)
+- <kbd>CTRL</kbd>+<kbd>o</kbd> (open file)
+- <kbd>SHIFT</kbd>+<kbd>q</kbd> (quit)
+- <kbd>SHIFT</kbd>+<kbd>w</kbd> (write)
 
 New Features:</br>
 - Move cursor from NERDTree to first buffer automatically
