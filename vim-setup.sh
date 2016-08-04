@@ -2,8 +2,6 @@
 #Author: lillypad
 echo "lillypad's Vim configuration Install Script"
 sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo apt-get -y dist-upgrade
 sudo apt-get -y install vim git vim-pathogen vim-youcompleteme
 vam install youcompleteme
 vam install pathogen
