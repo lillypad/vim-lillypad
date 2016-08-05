@@ -11,6 +11,8 @@ git clone git://github.com/tpope/vim-fugitive.git
 git clone https://github.com/vim-airline/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes
 git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/zeis/vim-kolor
+git clone https://github.com/tyru/open-browser.vim
 cd ~
 >.vimrc
 echo 'execute pathogen#infect()' >> .vimrc
@@ -34,4 +36,5 @@ echo 'inoremap <C-o> <C-c> :E <Enter>' >> .vimrc
 echo 'nnoremap <C-x> :bd <Enter>' >> .vimrc
 echo 'inoremap <C-x> <C-c> :bd <Enter>' >> .vimrc
 echo 'autocmd VimEnter * wincmd w' >> .vimrc
+echo 'colorscheme kolor' >> .vimrc 
 echo 'Vim Plugin Setup is complete!'
