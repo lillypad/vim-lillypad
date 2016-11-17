@@ -18,6 +18,7 @@ Shortcuts:</br>
 
 New Features:</br>
 - Move cursor from NERDTree to first buffer automatically
+- Added Powerline Font Support
 
 Features to Come:</br>
 - Tmux install and 256 color

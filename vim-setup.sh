@@ -5,6 +5,9 @@ sudo apt-get -y update
 sudo apt-get -y install vim git vim-pathogen vim-youcompleteme
 vam install youcompleteme
 vam install pathogen
+mkdir ~/.fonts
+cd .fonts
+wget https://github.com/powerline/fonts/raw/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 mkdir ~/.vim/bundle
 cd ~/.vim/bundle
 git clone git://github.com/tpope/vim-fugitive.git
@@ -20,6 +23,8 @@ echo 'autocmd VimEnter * NERDTree' >> .vimrc
 echo "let NERDTreeIgnore = ['\.pyc$']" >> .vimrc
 echo 'set laststatus=2' >> .vimrc
 echo 'set mouse=a' >> .vimrc
+echo 'set encoding=utf-8' >> .vimrc
+echo 'let g:airline_powerline_fonts = 1' >> .vimrc
 echo 'color desert' >> .vimrc
 echo 'set t_Co=256' >> .vimrc
 echo 'syntax on' >> .vimrc
