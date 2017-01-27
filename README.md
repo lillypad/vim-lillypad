@@ -5,8 +5,7 @@ Installs and Configures Vim for all my favorite plugins</br>
 - Airline
 - Fugative
 - NERDTree
-- YouCompleteMe
-- YouCompleteMe Themes
+- Python-Jedi Autocompletion for Python
 
 Shortcuts:</br>
 - <kbd>CTRL</kbd>+<kbd>x</kbd> (close buffer)
