@@ -2,15 +2,15 @@
 #Author: lillypad
 echo "lillypad's Vim configuration Install Script"
 sudo apt-get -y update
-sudo apt-get -y install vim git vim-pathogen vim-youcompleteme
-vam install youcompleteme
+sudo apt-get -y install vim git vim-pathogen vim-python-jedi python3-jedi
+vam install python-jedi
 vam install pathogen
 mkdir ~/.fonts
 cd .fonts
 wget https://github.com/powerline/fonts/raw/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 mkdir ~/.vim/bundle
 cd ~/.vim/bundle
-git clone git://github.com/tpope/vim-fugitive.git
+git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/vim-airline/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes
 git clone https://github.com/scrooloose/nerdtree.git
