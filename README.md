@@ -1,6 +1,6 @@
 # vim-lillypad
 
-Installs and Configures Vim for all your favorite plugins</br>
+Installs and Configures Vim for all your favorite plugins in once command</br>
 - [Pathogen](https://github.com/tpope/vim-pathogen)
 - [Airline](https://github.com/vim-airline/vim-airline)
 - [Fugative](https://github.com/tpope/vim-fugitive)
@@ -29,6 +29,10 @@ $ ./vim-lillypad.sh
 Enter password when prompted do not run as root user or with sudo.
 
 # ScreenShots
+![theme](img/theme.png)
+
+Ignore MiniMap in the animations it shows up proper this is caused by terminal recording bug.
+
 ![snippets](img/snippets.gif)
 ![syntax](img/syntax.gif)
 
