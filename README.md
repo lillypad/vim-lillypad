@@ -1,4 +1,4 @@
-#vim-lillypad
+#vim-lillypad#
 
 Installs and Configures Vim for all your favorite plugins</br>
 - Pathogen
@@ -20,7 +20,7 @@ Installs and Configures Vim for all your favorite plugins</br>
 - CtrlP
 - Syntastic
 
-#ScreenShots
+#ScreenShots#
 ![snippets](img/snippets.gif)
 ![syntax](img/syntax.gif)
 
