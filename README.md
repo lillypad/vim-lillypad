@@ -1,11 +1,28 @@
 #vim-lillypad
 
-Installs and Configures Vim for all my favorite plugins</br>
+Installs and Configures Vim for all your favorite plugins</br>
 - Pathogen
 - Airline
 - Fugative
 - NERDTree
 - Python-Jedi Autocompletion for Python
+- YouCompleteMe Autocompetion
+- Nerd-Commenter
+- Airline Themes
+- Vim-Snippets
+- SpellRotate
+- Emmet
+- ultisnips
+- Tern for Vim
+- Indent Guides
+- Minimap
+- Auto-Pairs
+- CtrlP
+- Syntastic
+
+#ScreenShots
+![snippets](img/snippets.gif)
+![syntax](img/syntax.gif)
 
 Shortcuts:</br>
 - <kbd>CTRL</kbd>+<kbd>x</kbd> (close buffer)
@@ -16,11 +33,20 @@ Shortcuts:</br>
 - <kbd>SHIFT</kbd>+<kbd>w</kbd> (write)
 
 New Features:</br>
-- Move cursor from NERDTree to first buffer automatically
-- Added Powerline Font Support
+- Spell Rotate and Spell Check On / Off
+- Multi-Line commenting with Nerd-Commenter
+- Syntastic for Syntax Checking
+- Snippets with YouCompletMe Support
+- Loads of Color Themes
+- CtrlP for Searching Recent Files
+- Emmet for web-development
+- Line indent guides
+- Minimap
+- SyntaxRange for multi-language files
+- Added support for Javascript autocomplete using Tern
 
 Features to Come:</br>
-- Tmux install and 256 color
-- Add 256 color to bashrc
+- Update Script for Plugins
+- Vim IDE Script and tmux with powerline support
 
 One quick install and config script and your up and running.
