@@ -46,7 +46,7 @@ Shortcuts:</br>
 - <kbd>LEADER</kbd>+<kbd>sjs</kbd> (syntaxrange for js)
 - <kbd>LEADER</kbd>+<kbd>spy</kbd> (syntaxrange for py)
 
-New Features:</br>
+**New Features:**</br>
 - Spell Rotate and Spell Check On / Off
 - Multi-Line commenting with Nerd-Commenter
 - Syntastic for Syntax Checking
@@ -59,7 +59,7 @@ New Features:</br>
 - SyntaxRange for multi-language files
 - Added support for Javascript autocomplete using Tern
 
-Features to Come:</br>
+**Features to Come:**</br>
 - Update Script for Plugins
 - Vim IDE Script and tmux with powerline support
 
