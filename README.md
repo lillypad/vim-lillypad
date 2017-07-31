@@ -30,7 +30,7 @@ Enter password when prompted do not run as root user or with sudo.
 ![snippets](img/snippets.gif)
 ![syntax](img/syntax.gif)
 
-Shortcuts:</br>
+**Shortcuts:**</br>
 - <kbd>CTRL</kbd>+<kbd>x</kbd> (close buffer)
 - <kbd>CTRL</kbd>+<kbd>n</kbd> (next buffer)
 - <kbd>CTRL</kbd>+<kbd>b</kbd> (back buffer)
