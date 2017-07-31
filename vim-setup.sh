@@ -3,13 +3,14 @@
 #Author: lillypad
 echo "lillypad's Vim configuration Install Script"
 sudo apt-get -y update
-sudo apt-get -y install vim git nodejs npm tidy build-essential cmake python-dev python3-dev
+sudo apt-get -y install vim git nodejs npm tidy build-essential cmake python-dev python3-dev curl
 sudo npm install -g jshint
-mkdir ~/.fonts
-cd .fonts
-wget https://github.com/powerline/fonts/raw/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
+mkdir -p ~/.fonts
+cd ~/.fonts
+curl -LSso ~/.fonts/powerline.ttf https://github.com/powerline/fonts/raw/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 fc-cache -fv
-mkdir ~/.vim/bundle
+mkdir -p ~/.vim/autoload ~/.vim/bundle
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
 git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/vim-airline/vim-airline.git
@@ -35,8 +36,10 @@ echo '}' >> .tern-config
 cd ~/.vim/bundle
 git clone https://github.com/Valloric/YouCompleteMe.git
 cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
 ./install.py --tern-completer
 ./install.py --clang-completer
+cd ..
 git clone https://github.com/tweekmonster/spellrotate.vim.git
 git clone https://github.com/davidhalter/jedi.git
 git clone https://github.com/vim-syntastic/syntastic.git
