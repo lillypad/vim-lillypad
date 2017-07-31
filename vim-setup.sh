@@ -33,7 +33,7 @@ echo '    "node": {}' >> .tern-config
 echo '    }' >> .tern-config
 echo '}' >> .tern-config
 cd ~/.vim/bundle
-git clone ihttps://github.com/Valloric/YouCompleteMe.git
+git clone https://github.com/Valloric/YouCompleteMe.git
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --tern-completer
 ./install.py --clang-completer
