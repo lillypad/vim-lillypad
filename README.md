@@ -22,6 +22,8 @@ Installs and Configures Vim for all your favorite plugins</br>
 
 # Installation
 ```bash
+$ git clone https://github.com/lillypad/vim-lillypad.git
+$ cd vim-lillypad/
 $ ./vim-lillypad.sh
 ```
 Enter password when prompted do not run as root user or with sudo.
