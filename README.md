@@ -56,7 +56,7 @@ Ignore MiniMap in the animations it shows up proper this is caused by terminal r
 - Spell Rotate and Spell Check On / Off
 - Multi-Line commenting with Nerd-Commenter
 - Syntastic for Syntax Checking
-- Snippets with YouCompletMe Support
+- Snippets with YouCompleteMe Support
 - Loads of Color Themes
 - CtrlP for Searching Recent Files
 - Emmet for web-development
