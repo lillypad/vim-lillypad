@@ -68,7 +68,7 @@ echo 'let g:UltiSnipsJumpForwardTrigger="<c-b>"' >> .vimrc
 echo 'let g:UltiSnipsJumpBackwardTrigger="<c-z>"' >> .vimrc
 echo 'let g:ConqueTerm_StartMessages = 0' >> .vimrc
 echo '"NERDTree Ignore Files' >> .vimrc
-echo 'let NERDTreeIgnore = ['\.pyc$']' >> .vimrc
+echo "let NERDTreeIgnore = ['\.pyc$']" >> .vimrc
 echo '"YouCompletMe Close Preview Pane' >> .vimrc
 echo 'let g:ycm_autoclose_preview_window_after_insertion = 1' >> .vimrc
 echo 'let g:ycm_autoclose_preview_window_after_completion = 1' >> .vimrc
@@ -86,7 +86,7 @@ echo 'let g:syntastic_always_populate_loc_list = 1' >> .vimrc
 echo 'let g:syntastic_auto_loc_list = 1' >> .vimrc
 echo 'let g:syntastic_check_on_open = 1' >> .vimrc
 echo 'let g:syntastic_check_on_wq = 0' >> .vimrc
-echo 'let g:syntastic_javascript_checkers = ['jshint']' >> .vimrc
+echo "let g:syntastic_javascript_checkers = ['jshint']" >> .vimrc
 echo 'let g:airline#extensions#tabline#enabled = 1' >> .vimrc
 echo 'set number' >> .vimrc
 echo 'nnoremap <C-n> :bn <Enter>' >> .vimrc
@@ -107,10 +107,10 @@ echo '"Spelling Off' >> .vimrc
 echo 'nnoremap <leader>zq :set nospell <Enter>' >> .vimrc
 echo '' >> .vimrc
 echo '"Syntax for Multi Language Files' >> .vimrc
-echo 'nmap <leader>shtml :call SyntaxRange#Include('@begin=html@', '@end=html@', 'html', 'SpecialComment') <Enter>' >> .vimrc
-echo 'nmap <leader>sc :call SyntaxRange#Include('@begin=c@', '@end=c@', 'c', 'SpecialComment') <Enter>' >> .vimrc
-echo 'nmap <leader>sjs :call SyntaxRange#Include('@begin=js@', '@end=js@', 'js', 'SpecialComment') <Enter>' >> .vimrc
-echo 'nmap <leader>spy :call SyntaxRange#Include('@begin=py@', '@end=py@', 'python', 'SpecialComment') <Enter>' >> .vimrc
+echo "nmap <leader>shtml :call SyntaxRange#Include('@begin=html@', '@end=html@', 'html', 'SpecialComment') <Enter>" >> .vimrc
+echo "nmap <leader>sc :call SyntaxRange#Include('@begin=c@', '@end=c@', 'c', 'SpecialComment') <Enter>" >> .vimrc
+echo "nmap <leader>sjs :call SyntaxRange#Include('@begin=js@', '@end=js@', 'js', 'SpecialComment') <Enter>" >> .vimrc
+echo "nmap <leader>spy :call SyntaxRange#Include('@begin=py@', '@end=py@', 'python', 'SpecialComment') <Enter>" >> .vimrc
 echo '' >> .vimrc
 echo '"Spell Rotate Bindings' >> .vimrc
 echo 'nmap <leader>zn <Plug>(SpellRotateForward)' >> .vimrc
