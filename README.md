@@ -1,6 +1,6 @@
 # vim-lillypad
 
-Installs and Configures Vim for all your favorite plugins in once command</br>
+Installs and Configures Vim for all your favorite plugins in one command</br>
 - [Pathogen](https://github.com/tpope/vim-pathogen)
 - [Airline](https://github.com/vim-airline/vim-airline)
 - [Fugative](https://github.com/tpope/vim-fugitive)
