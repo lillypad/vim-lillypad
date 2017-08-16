@@ -3,7 +3,7 @@
 #Author: lillypad
 echo "lillypad's Vim configuration Install Script"
 sudo apt-get -y update
-sudo apt-get -y install vim git nodejs npm tidy build-essential cmake python-dev python3-dev curl
+sudo apt-get -y install vim git nodejs npm tidy build-essential cmake python-dev python3-dev curl python python3 python-pip python3-pip
 sudo npm install -g jshint
 mkdir -p ~/.fonts
 cd ~/.fonts
