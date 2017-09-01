@@ -5,6 +5,7 @@ echo "lillypad's Vim configuration Install Script"
 sudo apt-get -y update
 sudo apt-get -y install vim git nodejs npm tidy build-essential cmake python-dev python3-dev curl python python3 python-pip python3-pip sshfs
 sudo npm install -g jshint
+sudo npm install -g jsonlint
 mkdir -p ~/.fonts
 cd ~/.fonts
 curl -LSso ~/.fonts/powerline.ttf https://github.com/powerline/fonts/raw/master/DejaVuSansMono/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
@@ -57,6 +58,7 @@ echo '"AutoStart NERDTree, Minimap, and Airline' >> .vimrc
 echo 'autocmd VimEnter * NERDTree' >> .vimrc
 echo 'autocmd VimEnter * Minimap' >> .vimrc
 echo 'autocmd VimEnter * AirlineTheme jellybeans' >> .vimrc
+echo 'autocmd BufNewFile,BufRead *.json set ft=javascript' >> .vimrc
 echo 'filetype plugin on' >> .vimrc
 echo '"Set Color Scheme' >> .vimrc
 echo 'colorscheme tir_black' >> .vimrc
@@ -90,6 +92,7 @@ echo 'let g:syntastic_auto_loc_list = 1' >> .vimrc
 echo 'let g:syntastic_check_on_open = 1' >> .vimrc
 echo 'let g:syntastic_check_on_wq = 0' >> .vimrc
 echo "let g:syntastic_javascript_checkers = ['jshint']" >> .vimrc
+echo "let g:syntastic_json_checkers = ['jsonlint']" >> .vimrc
 echo 'let g:airline#extensions#tabline#enabled = 1' >> .vimrc
 echo 'set number' >> .vimrc
 echo 'nnoremap <C-n> :bn <Enter>' >> .vimrc
