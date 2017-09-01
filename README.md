@@ -20,6 +20,7 @@ Installs and Configures Vim for all your favorite plugins in one command</br>
 - [CtrlP](https://github.com/kien/ctrlp.vim)
 - [Syntastic](https://github.com/vim-syntastic/syntastic)
 - [jslint](https://github.com/douglascrockford/JSLint)
+- [jsonlint](https://github.com/zaach/jsonlint)
 
 # Installation
 ```bash
