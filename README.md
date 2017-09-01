@@ -19,6 +19,7 @@ Installs and Configures Vim for all your favorite plugins in one command</br>
 - [Auto-Pairs](https://github.com/jiangmiao/auto-pairs)
 - [CtrlP](https://github.com/kien/ctrlp.vim)
 - [Syntastic](https://github.com/vim-syntastic/syntastic)
+- [jslint](https://github.com/douglascrockford/JSLint)
 
 # Installation
 ```bash
@@ -55,7 +56,7 @@ Ignore MiniMap in the animations it shows up proper this is caused by terminal r
 **New Features:**</br>
 - Spell Rotate and Spell Check On / Off
 - Multi-Line commenting with Nerd-Commenter
-- Syntastic for Syntax Checking
+- Syntastic for Syntax Checking of HTML, JSON, Python and more
 - Snippets with YouCompleteMe Support
 - Loads of Color Themes
 - CtrlP for Searching Recent Files
